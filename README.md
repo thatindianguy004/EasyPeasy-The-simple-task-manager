@@ -1,59 +1,35 @@
-# FirstAngularApp
+# 📝 EasyPeasy - Task Manager
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.3.
+EasyPeasy is a lightweight, frontend-only task management application built with **AngularJS**. It allows users to seamlessly manage their daily tasks using full CRUD (Create, Read, Update, Delete) functionality without the need for a backend server or a traditional database. 
 
-## Development server
+All data is stored locally in the browser, making it incredibly fast, completely private, and—true to its name—easy peasy to set up and use.
 
-To start a local development server, run:
+## ✨ Features
 
-```bash
-ng serve
-```
+* **No Database Required:** Completely serverless. Uses HTML5 `localStorage` to save your tasks persistently across browser sessions.
+* **Full CRUD Operations:**
+  * **Create:** Quickly add new tasks to your list.
+  * **Read:** View all pending and completed tasks.
+  * **Update:** Edit existing tasks or mark them as complete.
+  * **Delete:** Remove tasks you no longer need.
+* **Lightweight & Fast:** Built entirely on the client side using AngularJS, ensuring zero latency when managing your tasks.
+* **Responsive Design:** Clean and simple UI that works great on desktops and tablets.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🛠️ Technologies Used
 
-## Code scaffolding
+* **Framework:** AngularJS (1.x)
+* **Storage:** Window `localStorage` API
+* **Markup & Styling:** HTML5, CSS3 
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🚀 Getting Started
 
-```bash
-ng generate component component-name
-```
+Since EasyPeasy does not require a backend or a database, getting it running on your local machine takes only seconds.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Prerequisites
+All you need is a modern web browser (Chrome, Firefox, Safari, Edge).
 
-```bash
-ng generate --help
-```
+### Installation
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/yourusername/EasyPeasy.git](https://github.com/yourusername/EasyPeasy.git)
