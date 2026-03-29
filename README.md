@@ -32,4 +32,4 @@ All you need is a modern web browser (Chrome, Firefox, Safari, Edge).
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/thatindianguy004/EasyPeasy.git](https://github.com/thatindianguy004/EasyPeasy.git)
+   git clone https://github.com/thatindianguy004/EasyPeasy.git
