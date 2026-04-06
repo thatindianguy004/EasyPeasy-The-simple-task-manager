@@ -10,11 +10,20 @@
             </button>
         </menu>
     </header>
+    <div class="search-bar">
+        <input
+            type="search"
+            placeholder="Search tasks..."
+            [(ngModel)]="searchQuery"
+        />
+    </div>
     <ul>
        @for (task of selectedUserTasks; track task.id) {
          <li>
             <app-task [task]="task" (complete)="onCompleteTask($event)"/>
         </li>
+       } @empty {
+         <li class="no-tasks">No tasks match your search.</li>
        }
     </ul>
 </section>

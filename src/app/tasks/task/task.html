@@ -1,8 +1,12 @@
-<article>
+<article [class.completed]="task.completed">
     <h2>{{task.title}}</h2>
     <time> {{task.dueDate | date : 'fullDate'}} </time>
     <p> {{task.summary}} </p>
     <p class="actions">
-        <button (click)="onCompleteTask()" >Complete</button>
+        @if(!task.completed){
+          <button (click)="onCompleteTask()" >Complete</button>
+        } @else {
+          <span class="completed-badge">✓ Completed</span>
+        }
     </p>
 </article>
