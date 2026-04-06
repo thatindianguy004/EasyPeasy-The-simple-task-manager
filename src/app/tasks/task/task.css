@@ -4,6 +4,18 @@ article {
   background-color: #bf9ee5;
 }
 
+article.completed {
+  background-color: #9b84c2;
+  opacity: 0.8;
+}
+
+article.completed h2,
+article.completed p,
+article.completed time {
+  text-decoration: line-through;
+  color: #4a3a60;
+}
+
 h2 {
   margin: 0;
 }
@@ -34,4 +46,14 @@ time {
 .actions button:active {
   background-color: #4a0774;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+.completed-badge {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #2a1a45;
+  background-color: #a076d4;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  display: inline-block;
 }
